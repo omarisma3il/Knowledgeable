@@ -1,0 +1,485 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--colordark);
+    margin: 0;
+    margin-bottom: 700px;
+}
+
+:root {
+    --colordark: #18191a;
+    --colorlite: #f0f2f5;
+}
+
+.F22 {
+    height: 75px;
+    background-color: white;
+    color: black;
+}
+
+[title="Knowledgeable"] {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+[alt="logo"] {
+    margin-left: 94%;
+    margin-top: 6px;
+    height: 50px;
+    width: auto;
+}
+
+h1 {
+    position: absolute;
+    top: 15px;
+    left: calc(45% - 50px);
+}
+
+[alt="Pythagoras"] {
+    transform: translate(50px, 50px);
+    transition: all .8s .2s linear;
+}
+
+[alt="Pythagoras"]:hover {
+    transform: translate(50px, 50px) scale(.9) rotate(5deg);
+}
+
+.Pythagoras {
+    display: inline-block;
+    color: white;
+    position: relative;
+    bottom: 150px;
+    left: 10%;
+}
+
+[alt="Socrates"] {
+    display: block;
+    transform: translate(50px, 100px);
+    transition: all .8s .2s linear;
+}
+
+[alt="Socrates"]:hover {
+    transform: translate(50px, 100px) scale(.9) rotate(5deg);
+}
+
+[alt="Plato"] {
+    position: absolute;
+    top: 581px;
+    left: 75%;
+    transition: all .8s .2s linear;
+}
+
+[alt="Plato"]:hover {
+    transform: scale(.9) rotate(-5deg);
+}
+
+.SocratesPlato {
+    display: inline-block;
+    color: white;
+    position: relative;
+    bottom: 105px;
+    left: 30%;
+}
+
+[alt="Plutarch"] {
+    display: block;
+    transform: translate(50px, 130px);
+    transition: all .8s .2s linear;
+}
+
+[alt="Plutarch"]:hover {
+    transform: translate(50px, 130px) scale(.9) rotate(5deg);
+}
+
+.Plutarch {
+    display: inline-block;
+    color: white;
+    position: relative;
+    top: -100px;
+    left: 30%;
+}
+
+[alt="gandhi"] {
+    display: block;
+    transform: translate(50px, 160px);
+    transition: all .8s .2s linear;
+}
+
+[alt="gandhi"]:hover {
+    transform: translate(50px, 160px) scale(.9) rotate(5deg);
+}
+
+.gandhi {
+    display: inline-block;
+    color: white;
+    position: relative;
+    top: -45px;
+    left: 30%;
+}
+
+[alt="Hippocrates"] {
+    display: block;
+    transform: translate(50px, 190px);
+    transition: all .8s .2s linear;
+}
+
+[alt="Hippocrates"]:hover {
+    transform: translate(50px, 190px) scale(.9) rotate(5deg);
+}
+
+.Hippocrates {
+    display: inline-block;
+    color: white;
+    position: relative;
+    top: -25px;
+    left: 30%;
+}
+
+[alt="Upton Sinclair"] {
+    display: block;
+    transform: translate(50px, 220px);
+    transition: all .8s .2s linear;
+}
+
+[alt="Upton Sinclair"]:hover {
+    transform: translate(50px, 220px) scale(.9) rotate(5deg);
+}
+
+.UptonSinclair {
+    display: inline-block;
+    color: white;
+    position: relative;
+    top: -25px;
+    left: 30%;
+}
+
+[alt="David Sinclair"] {
+    display: block;
+    transform: translate(50px, 250px);
+    transition: all .8s .2s linear;
+}
+
+[alt="David Sinclair"]:hover {
+    transform: translate(50px, 250px) scale(.9) rotate(5deg);
+}
+
+.DavidSinclair {
+    display: inline-block;
+    color: white;
+    position: relative;
+    top: -25px;
+    left: 30%;
+}
+
+.talk {
+    display: inline-block;
+    color: white;
+    position: relative;
+    top: 275px;
+    left: 30%;
+}
+
+hr {
+    margin-top: 350px;
+}
+
+.lesstimefasting {
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+}
+
+[alt="comoros"] {
+    display: block;
+    transform: translate(50px, 250px);
+    transition: all .8s .2s linear;
+}
+
+[alt="comoros"]:hover {
+    transform: translate(50px, 250px) scale(.9) rotate(5deg);
+}
+
+.comoros {
+    display: inline-block;
+    color: white;
+    position: relative;
+    top: -25px;
+    left: 30%;
+}
+
+[alt="cape"] {
+    display: block;
+    transform: translate(50px, 310px);
+    transition: all .8s .2s linear;
+}
+
+[alt="cape"]:hover {
+    transform: translate(50px, 310px) scale(.9) rotate(5deg);
+}
+
+.cape {
+    display: inline-block;
+    color: white;
+    position: relative;
+    top: 50px;
+    left: 30%;
+}
+
+[alt="Australia"] {
+    display: block;
+    transform: translate(50px, 280px);
+    transition: all .8s .2s linear;
+}
+
+[alt="Australia"]:hover {
+    transform: translate(50px, 280px) scale(.9) rotate(5deg);
+}
+
+.Australia {
+    display: inline-block;
+    color: white;
+    position: relative;
+    top: 10px;
+    left: 30%;
+}
+
+[alt="New zealand"] {
+    display: block;
+    transform: translate(50px, 340px);
+    transition: all .8s .2s linear;
+}
+
+[alt="New zealand"]:hover {
+    transform: translate(50px, 340px) scale(.9) rotate(5deg);
+}
+
+.Newzealand {
+    display: inline-block;
+    color: white;
+    position: relative;
+    top: 60px;
+    left: 30%;
+}
+
+[alt="argentina"] {
+    display: block;
+    transform: translate(50px, 370px);
+    transition: all .8s .2s linear;
+}
+
+[alt="argentina"]:hover {
+    transform: translate(50px, 370px) scale(.9) rotate(5deg);
+}
+
+.argentina {
+    display: inline-block;
+    color: white;
+    position: relative;
+    top: 60px;
+    left: 30%;
+}
+
+.hr {
+    margin-top: 500px;
+}
+
+.talk2 {
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+}
+
+[alt="algeria"] {
+    display: block;
+    transform: translate(50px, 340px);
+    transition: all .8s .2s linear;
+}
+
+[alt="algeria"]:hover {
+    transform: translate(50px, 340px) scale(.9) rotate(5deg);
+}
+
+.algeria {
+    display: inline-block;
+    color: white;
+    position: relative;
+    top: 60px;
+    left: 30%;
+}
+
+[alt="tunisia"] {
+    display: block;
+    transform: translate(50px, 370px);
+    transition: all .8s .2s linear;
+}
+
+[alt="tunisia"]:hover {
+    transform: translate(50px, 370px) scale(.9) rotate(5deg);
+}
+
+.tunisia {
+    display: inline-block;
+    color: white;
+    position: relative;
+    top: 125px;
+    left: 30%;
+}
+
+[alt="united kingdom"] {
+    display: block;
+    transform: translate(50px, 400px);
+    transition: all .8s .2s linear;
+}
+
+[alt="united kingdom"]:hover {
+    transform: translate(50px, 400px) scale(.9) rotate(5deg);
+}
+
+.unitedkingdom {
+    display: inline-block;
+    color: white;
+    position: relative;
+    top: 150px;
+    left: 30%;
+}
+
+[alt="germany"] {
+    display: block;
+    transform: translate(50px, 430px);
+    transition: all .8s .2s linear;
+}
+
+[alt="germany"]:hover {
+    transform: translate(50px, 430px) scale(.9) rotate(5deg);
+}
+
+.germany {
+    display: inline-block;
+    color: white;
+    position: relative;
+    top: 175px;
+    left: 30%;
+}
+
+[alt="russia"] {
+    display: block;
+    transform: translate(50px, 460px);
+    transition: all .8s .2s linear;
+}
+
+[alt="russia"]:hover {
+    transform: translate(50px, 460px) scale(.9) rotate(5deg);
+}
+
+.russia {
+    display: inline-block;
+    color: white;
+    position: relative;
+    top: 200px;
+    left: 30%;
+}
+
+[alt="sweden"] {
+    display: block;
+    transform: translate(50px, 490px);
+    transition: all .8s .2s linear;
+}
+
+[alt="sweden"]:hover {
+    transform: translate(50px, 490px) scale(.9) rotate(5deg);
+}
+
+.sweden {
+    display: inline-block;
+    color: white;
+    position: relative;
+    top: 225px;
+    left: 30%;
+}
+
+[alt="norway"] {
+    display: block;
+    transform: translate(50px, 520px);
+    transition: all .8s .2s linear;
+}
+
+[alt="norway"]:hover {
+    transform: translate(50px, 520px) scale(.9) rotate(5deg);
+}
+
+.norway {
+    display: inline-block;
+    color: white;
+    position: relative;
+    top: 250px;
+    left: 30%;
+}
+
+[alt="Finland"] {
+    display: block;
+    transform: translate(50px, 550px);
+    transition: all .8s .2s linear;
+}
+
+[alt="Finland"]:hover {
+    transform: translate(50px, 550px) scale(.9) rotate(5deg);
+}
+
+.Finland {
+    display: inline-block;
+    color: white;
+    position: relative;
+    top: 275px;
+    left: 30%;
+}
+
+[alt="Iceland"] {
+    display: block;
+    transform: translate(50px, 580px);
+    transition: all .8s .2s linear;
+}
+
+[alt="Iceland"]:hover {
+    transform: translate(50px, 580px) scale(.9) rotate(5deg);
+}
+
+.Iceland {
+    display: inline-block;
+    color: white;
+    position: relative;
+    top: 300px;
+    left: 30%;
+}
+
+[alt="Greenland"] {
+    display: block;
+    transform: translate(50px, 610px);
+    transition: all .8s .2s linear;
+}
+
+[alt="Greenland"]:hover {
+    transform: translate(50px, 610px) scale(.9) rotate(5deg);
+}
+
+.Greenland {
+    display: inline-block;
+    color: white;
+    position: relative;
+    top: 325px;
+    left: 30%;
+}
+
+h5 {
+    color: white;
+    font-size: 16px;
+    font-weight: bolder;
+    font-style: italic;
+    display: inline-block;
+    transform: translate(-50px, 650px);
+}
